@@ -1,7 +1,7 @@
 const { response, request } = require("express");
 const { calcularExpresion } = require("../services/expresiones.service");
 
-//Mismo funcion controllador para las dos metodos porque hacen lo mismo
+/**Misma funcion controllador para las dos metodos porque hacen lo mismo */
 const expresionGetYPost = (req = request, res = response) => {
   const expresion =
     req.method === "GET" ? req.query.expresion : req.body.expresion;
