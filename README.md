@@ -65,7 +65,6 @@ ${URL}/api/math/expresiones
 ### Desarrollo
 
 - [NODEJS](https://nodejs.org/es/) v16.15.1 o superior
-- [ANGULAR](https://angular.io/) v14.1.3 o superior
 - [Postman](https://www.postman.com/)
 
 ## Versionado
