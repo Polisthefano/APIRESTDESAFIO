@@ -34,7 +34,7 @@ Es necesario configurar las siguientes variables de entorno
 
 ### GET Calcular expresión
 
-Calculamos la expresion enviada por query params
+Calculamos la expresion enviada por query params, el query debe ir codificado con encodeURIComponent
 
 #### URL
 
@@ -44,7 +44,7 @@ ${URL}/api/math/expresiones?expresion=
 
 #### QUERY PARAMS
 
-?expresion=
+?expresion=1%2B2
 
 ### POST Calcular expresion
 
