@@ -11,7 +11,7 @@ const expresionGetYPost = (req = request, res = response) => {
       resultado: result,
     });
   } catch (error) {
-    res.status(500).json({
+    res.status(400).json({
       msg: error.message,
     });
   }

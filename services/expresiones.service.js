@@ -4,7 +4,7 @@ const calcularExpresion = (expresion) => {
   try {
     return evaluate(expresion);
   } catch (error) {
-    throw new Error("Error al calcular la expresion, " + error);
+    throw new Error("Error al calcular, la expresión no es valida");
   }
 };
 
